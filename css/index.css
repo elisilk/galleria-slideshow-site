@@ -582,12 +582,6 @@ body {
 }
 
 .slider__slides {
-  /* overflow-x: clip;
-  overflow-y: visible;
-  position: relative;
-  inline-size: 100%;
-  block-size: 895px; */
-
   container-type: inline-size;
   container-name: slidesContainer;
 
@@ -609,49 +603,6 @@ body {
 .slider__slides > * {
   flex: 0 0 100%;
   scroll-snap-align: start;
-}
-
-/* mobile -> tablet */
-/* @media (min-width: 45rem) {
-  .slider__slides {
-    block-size: 1002px;
-  }
-}
- */
-/* tablet -> desktop */
-/* @media (min-width: 80rem) {
-  .slider__slides {
-    block-size: 624px;
-  }
-}
- */
-
-.slide {
-  /*   position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: all 0.25s;
-  transform: translateX(-200%);
-  */
-  /* for debugging purposes only */
-  /* outline: 2px dashed #d6008733;
-  outline-offset: -2px; */
-}
-
-.slide.next + .slide {
-  /* transform: translateX(200%); */
-}
-
-.slide.prev {
-  /* transform: translateX(-100%); */
-}
-
-.slide.current {
-  /* transform: translateX(0); */
-}
-
-.slide.next {
-  /* transform: translateX(100%); */
 }
 
 .slider__controls {
