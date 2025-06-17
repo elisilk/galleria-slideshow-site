@@ -2,10 +2,11 @@
 /* Breakpoints          */
 /* -------------------- */
 
-/* Media queries breakpoints */
+/* Media query breakpoints (min-widths) */
 
 /* 47rem = 752px -- mobile -> tablet */
-/* 60rem = 960px -- tablet -> desktop */
+/* 70rem = 1120px -- in between size, tablet -> sm. desktop */
+/* 88rem = 1408px -- tablet -> lg. desktop */
 
 /* Fluid min -> max viewport sizes */
 
@@ -133,7 +134,7 @@
 }
 
 /* Tablet (mobile -> tablet) */
-@media (min-width: 45rem) {
+@media (min-width: 47rem) {
   :root {
     /* font-sizes */
     --fs-800: 3.5rem; /* 24px -> 56px */
@@ -141,10 +142,6 @@
     /* line-heights */
     --lh-800: 4rem; /* 29px -> 64px (for 56px) = ? */
   }
-}
-
-/* Desktop (tablet -> desktop) */
-@media (min-width: 60rem) {
 }
 
 /* -------------------- */
@@ -345,7 +342,7 @@ body {
 /* loader - https://css-loaders.com/spinner/ */
 
 /* HTML: <div class="loader"></div> */
-.loader {
+/* .loader {
   margin-inline: auto;
   width: 100px;
   padding: 8px;
@@ -363,7 +360,7 @@ body {
   to {
     transform: rotate(1turn);
   }
-}
+} */
 
 /* spacing/alignment */
 
@@ -832,7 +829,7 @@ body {
 }
 
 /* mobile -> tablet */
-@media (min-width: 45rem) {
+@media (min-width: 47rem) {
   .site__header {
     --pb: 1.8125rem; /* (m) 24px -> (t) 29px -> (d) 40px */
   }
@@ -843,7 +840,7 @@ body {
 }
 
 /* tablet -> desktop */
-@media (min-width: 80rem) {
+@media (min-width: 88rem) {
   .site__header {
     --pb: 2.5rem; /* (m) 24px -> (t) 29px -> (d) 40px */
   }
@@ -959,7 +956,7 @@ body {
 }
 
 /* mobile -> tablet */
-@media (min-width: 45rem) {
+@media (min-width: 47rem) {
   .detail {
     --row-gap: 4rem;
   }
@@ -1026,7 +1023,7 @@ body {
 }
 
 /* tablet -> desktop */
-@media (min-width: 80rem) {
+@media (min-width: 88rem) {
   .detail__artist {
     align-self: end;
   }
