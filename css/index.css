@@ -828,7 +828,7 @@ body {
 
 .site__main {
   --gap: 1.5rem; /* (m) 24px -> (t) 40px */
-  // padding: var(--gap);
+  /* padding: var(--gap); */
 }
 
 /* mobile -> tablet */
