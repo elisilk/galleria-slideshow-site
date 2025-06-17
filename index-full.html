@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js" type="module" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <meta name="description" content="Solution to Frontend Mentor's Galleria slideshow site design challenge.">
+    <title>Frontend Mentor | Galleria slideshow site</title>
+  </head>
+  <body>
+
+    <header>
+      <img src="assets/shared/logo.svg" alt="Galleria logo" width="170" height="48">
+      <button class="link1">Start Slideshow</button>
+    </header>
+
+    <main>
+
+      <h1 class="sr-only">Galleria</h1>
+
+      <div class="masonry">
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/starry-night/thumbnail.jpg" alt="Starry Night thumbnail" width="327" height="250"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="starry-night.html">Starry Night</a>
+            </h2>
+            <p class="card__subtitle">Vincent Van Gogh</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/girl-with-pearl-earring/thumbnail.jpg" alt="Girl with a Pearl Earring thumbnail" width="327" height="400"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">Girl with a Pearl Earring</a>
+            </h2>
+            <p class="card__subtitle">Johannes Vermeer</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/guernica/thumbnail.jpg" alt="Guernica thumbnail" width="327" height="285"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">Guernica</a>
+            </h2>
+            <p class="card__subtitle">Pablo Picasso</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/penitent-magdalene/thumbnail.jpg" alt="Penitent Magdalene thumbnail" width="327" height="250"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">Penitent Magdalene</a>
+            </h2>
+            <p class="card__subtitle">Artemisia Gentileschi
+            </div>
+          </p>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/the-storm-on-the-sea-of-galilee/thumbnail.jpg" alt="The Storm on the Sea of Galilee thumbnail" width="327" height="340"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">The Storm on the Sea of Galilee</a>
+            </h2>
+            <p class="card__subtitle">Rembrandt</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/the-great-wave-off-kanagawa/thumbnail.jpg" alt="The Great Wave off Kanagawa thumbnail" width="327" height="280"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">The Great Wave off Kanagawa</a>
+            </h2>
+            <p class="card__subtitle">Hokusai</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/van-gogh-self-portrait/thumbnail.jpg" alt="Van Gogh Self-portrait thumbnail" width="327" height="500"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">Van Gogh Self-portrait</a>
+            </h2>
+            <p class="card__subtitle">Vincent Van Gogh</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/the-sleeping-gypsy/thumbnail.jpg" alt="The Sleeping Gypsy thumbnail" width="327" height="250"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">The Sleeping Gypsy</a>
+            </h2>
+            <p class="card__subtitle">Henri Rousseau</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/lady-with-an-ermine/thumbnail.jpg" alt="Lady with an Ermine thumbnail" width="327" height="420"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">Lady with an Ermine</a>
+            </h2>
+            <p class="card__subtitle">Leonardo da Vinci</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/the-night-cafe/thumbnail.jpg" alt="The Night Café thumbnail" width="327" height="260"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">The Night Café</a>
+            </h2>
+            <p class="card__subtitle">Vincent Van Gogh</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/the-basket-of-apples/thumbnail.jpg" alt="The Basket of Apples thumbnail" width="327" height="430"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">The Basket of Apples</a>
+            </h2>
+            <p class="card__subtitle">Paul Cézanne</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/the-boy-in-the-red-vest/thumbnail.jpg" alt="The Boy in the Red Vest thumbnail" width="327" height="260"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">The Boy in the Red Vest</a>
+            </h2>
+            <p class="card__subtitle">Paul Cézanne</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/arnolfini-portrait/thumbnail.jpg" alt="Arnolfini Portrait thumbnail" width="327" height="330"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">Arnolfini Portrait</a>
+            </h2>
+            <p class="card__subtitle">Jan van Eyck</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/mona-lisa/thumbnail.jpg" alt="Mona Lisa thumbnail" width="327" height="525"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">Mona Lisa</a>
+            </h2>
+            <p class="card__subtitle">Leonardo da Vinci</p>
+          </div>
+        </div>
+
+        <div class="card item">
+          <div class="card__img"><img src="assets/the-swing/thumbnail.jpg" alt="The Swing thumbnail" width="327" height="340"></div>
+          <div class="card__text">
+            <h2 class="card__title heading2">
+              <a href="#">The Swing</a>
+            </h2>
+            <p class="card__subtitle">Jean-Honoré Fragonard
+            </div>
+          </p>
+        </div>
+
+      </div>
+
+    </main>
+
+  </body>
+</html>

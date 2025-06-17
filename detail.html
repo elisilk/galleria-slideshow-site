@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/index.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="Solution to Frontend Mentor's Galleria slideshow site design challenge."
+    />
+    <title>Frontend Mentor | Galleria slideshow site | Details</title>
+  </head>
+
+  <body>
+    <div class="site">
+      <header class="site__header">
+        <div class="site__header-inner">
+          <a href="/" class="logo"
+            ><img
+              src="assets/shared/logo.svg"
+              alt="Galleria logo"
+              width="170"
+              height="48"
+          /></a>
+          <a href="index.html" class="link1 block-align-center inline-align-end"
+            >Stop Slideshow</a
+          >
+        </div>
+      </header>
+
+      <main class="site__main">
+        <h1 class="sr-only">Galleria - Details</h1>
+
+        <div class="slider layout">
+          <div class="slider__slides block-margin-normal">
+            <article
+              class="slide detail grid"
+              data-title="Starry Night"
+              data-artist="Vincent Van Gogh"
+              data-slug="starry-night"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/starry-night/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/starry-night/hero-small.jpg"
+                      alt="Starry Night"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">Starry Night</h2>
+                  <p class="subhead1">Vincent Van Gogh</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/starry-night/artist.jpg"
+                    alt="Vincent Van Gogh"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1889</p>
+                <p class="detail__desc">
+                  Although The Starry Night was painted during the day in Van
+                  Gogh's ground-floor studio, it would be inaccurate to state
+                  that the picture was painted from memory. The view has been
+                  identified as the one from his bedroom window, facing east, a
+                  view which Van Gogh painted variations of no fewer than
+                  twenty-one times, including The Starry Night. "Through the
+                  iron-barred window," he wrote to his brother, Theo, around 23
+                  May 1889, "I can see an enclosed square of wheat ... above
+                  which, in the morning, I watch the sun rise in all its glory."
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/The_Starry_Night"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="Girl with a Pearl Earring"
+              data-artist="Johannes Vermeer"
+              data-slug="girl-with-pearl-earring"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/girl-with-pearl-earring/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/girl-with-pearl-earring/hero-small.jpg"
+                      alt="Girl with a Pearl Earring"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">Girl with a Pearl Earring</h2>
+                  <p class="subhead1">Johannes Vermeer</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/girl-with-pearl-earring/artist.jpg"
+                    alt="Johannes Vermeer"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1665</p>
+                <p class="detail__desc">
+                  The painting is a tronie, the Dutch 17th-century description
+                  of a 'head' that was not meant to be a portrait. It depicts a
+                  European girl wearing an exotic dress, an oriental turban, and
+                  what was thought to be a very large pearl as an earring. In
+                  2014, Dutch astrophysicist Vincent Icke raised doubts about
+                  the material of the earring and argued that it looks more like
+                  polished tin than pearl on the grounds of the specular
+                  reflection, the pear shape and the large size of the earring.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="Guernica"
+              data-artist="Pablo Picasso"
+              data-slug="guernica"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/guernica/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/guernica/hero-small.jpg"
+                      alt="Guernica"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">Guernica</h2>
+                  <p class="subhead1">Pablo Picasso</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/guernica/artist.jpg"
+                    alt="Pablo Picasso"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1937</p>
+                <p class="detail__desc">
+                  The scene occurs within a room where, on the left, a wide-eyed
+                  bull stands over a grieving woman holding a dead child in her
+                  arms. In the center of the room a horse falls in agony with a
+                  large gaping hole in its side, as if it had just been run
+                  through by a spear or javelin. The horse appears to be wearing
+                  chain mail armor, decorated with vertical tally marks arranged
+                  in rows. A dead and dismembered soldier lies under the horse.
+                  The hand of his severed right arm grasps a shattered sword,
+                  from which a flower grows.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/Guernica_(Picasso)"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="Penitent Magdalene"
+              data-artist="Artemisia Gentileschi"
+              data-slug="penitent-magdalene"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/penitent-magdalene/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/penitent-magdalene/hero-small.jpg"
+                      alt="Penitent Magdalene"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">Penitent Magdalene</h2>
+                  <p class="subhead1">Artemisia Gentileschi</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/penitent-magdalene/artist.jpg"
+                    alt="Artemisia Gentileschi"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1625</p>
+                <p class="detail__desc">
+                  Penitent Magdalene is a painting by the Italian artist
+                  Artemisia Gentileschi. It hangs in Seville Cathedral. It has
+                  probably been in the cathedral since the late 17th century.
+                  The painting's first home was the collection of Fernando
+                  Enriquez Afan de Ribera, from 1626 to 1637. She returned to
+                  the subject later in the 1620s in Mary Magdalene as
+                  Melancholy.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/Penitent_Magdalene_(Artemisia_Gentileschi)"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="The Storm on the Sea of Galilee"
+              data-artist="Rembrandt"
+              data-slug="the-storm-on-the-sea-of-galilee"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="
+                        assets/the-storm-on-the-sea-of-galilee/hero-large.jpg
+                      "
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/the-storm-on-the-sea-of-galilee/hero-small.jpg"
+                      alt="The Storm on the Sea of Galilee"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">The Storm on the Sea of Galilee</h2>
+                  <p class="subhead1">Rembrandt</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/the-storm-on-the-sea-of-galilee/artist.jpg"
+                    alt="Rembrandt"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1633</p>
+                <p class="detail__desc">
+                  The painting, in vertical format, shows a close-up view of
+                  Christ's disciples struggling frantically against the heavy
+                  storm to regain control of their fishing boat. A huge wave
+                  beats the bow and rips the sail. One of the disciples is seen
+                  vomiting over the side. Another one, looking directly out at
+                  the viewer, is a self-portrait of the artist. Only Christ,
+                  depicted on the right, remains calm.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/The_Storm_on_the_Sea_of_Galilee"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="The Great Wave off Kanagawa"
+              data-artist="Hokusai"
+              data-slug="the-great-wave-off-kanagawa"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/the-great-wave-off-kanagawa/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/the-great-wave-off-kanagawa/hero-small.jpg"
+                      alt="The Great Wave off Kanagawa"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">The Great Wave off Kanagawa</h2>
+                  <p class="subhead1">Hokusai</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/the-great-wave-off-kanagawa/artist.jpg"
+                    alt="Hokusai"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1831</p>
+                <p class="detail__desc">
+                  The Great Wave off Kanagawa (Japanese: 神奈川沖浪裏, Hepburn:
+                  Kanagawa-oki Nami Ura, lit. "Under the Wave off Kanagawa"),
+                  also known as The Great Wave or simply The Wave, is a
+                  woodblock print by the Japanese ukiyo-e artist Hokusai. It was
+                  published sometime between 1829 and 1833 in the late Edo
+                  period as the first print in Hokusai's series Thirty-six Views
+                  of Mount Fuji. The image depicts an enormous wave threatening
+                  three boats off the coast in the Sagami Bay (Kanagawa
+                  Prefecture) while Mount Fuji rises in the background.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="Van Gogh self-portrait"
+              data-artist="Vincent Van Gogh"
+              data-slug="van-gogh-self-portrait"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/van-gogh-self-portrait/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/van-gogh-self-portrait/hero-small.jpg"
+                      alt="Van Gogh self-portrait"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">Van Gogh self-portrait</h2>
+                  <p class="subhead1">Vincent Van Gogh</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/van-gogh-self-portrait/artist.jpg"
+                    alt="Vincent Van Gogh"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1889</p>
+                <p class="detail__desc">
+                  This self-portrait was one of about 32 produced over a 10-year
+                  period, and these were an important part of his work as a
+                  painter; he painted himself because he often lacked the money
+                  to pay for models. He took the painting with him to
+                  Auvers-sur-Oise, near Paris, where he showed it to Dr. Paul
+                  Gachet, who thought it was "absolutely fanatical". Art
+                  historians are divided as to whether this painting or
+                  Self-portrait without beard is Van Gogh's final self-portrait.
+                  The art historians Ingo F. Walther and Jan Hulsker consider
+                  this to be the last.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/Van_Gogh_self-portrait_(1889)"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="The Sleeping Gypsy"
+              data-artist="Henri Rousseau"
+              data-slug="the-sleeping-gypsy"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/the-sleeping-gypsy/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/the-sleeping-gypsy/hero-small.jpg"
+                      alt="The Sleeping Gypsy"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">The Sleeping Gypsy</h2>
+                  <p class="subhead1">Henri Rousseau</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/the-sleeping-gypsy/artist.jpg"
+                    alt="Henri Rousseau"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1897</p>
+                <p class="detail__desc">
+                  The Sleeping Gypsy (French: La Bohémienne endormie) is an 1897
+                  oil painting by French Naïve artist Henri Rousseau
+                  (1844–1910). It is a fantastical depiction of a lion musing
+                  over a sleeping woman on a moonlit night. Rousseau first
+                  exhibited the painting at the 13th Salon des Indépendants, and
+                  tried unsuccessfully to sell it to the mayor of his hometown,
+                  Laval. Instead, it entered the private collection of a
+                  Parisian charcoal merchant where it remained until 1924, when
+                  it was discovered by the art critic Louis Vauxcelles.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/The_Sleeping_Gypsy"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="Lady with an Ermine"
+              data-artist="Leonardo da Vinci"
+              data-slug="lady-with-an-ermine"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/lady-with-an-ermine/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/lady-with-an-ermine/hero-small.jpg"
+                      alt="Lady with an Ermine"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">Lady with an Ermine</h2>
+                  <p class="subhead1">Leonardo da Vinci</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/lady-with-an-ermine/artist.jpg"
+                    alt="Leonardo da Vinci"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1489</p>
+                <p class="detail__desc">
+                  The Lady with an Ermine (Italian: Dama con l'ermellino [ˈdaːma
+                  kon lermelˈliːno]; Polish: Dama z gronostajem) is a portrait
+                  painting widely attributed to the Italian Renaissance artist
+                  Leonardo da Vinci. Dated to c. 1489–1491, the work is painted
+                  in oils on a panel of walnut wood. Its subject is Cecilia
+                  Gallerani, a mistress of Ludovico Sforza ("Il Moro"), Duke of
+                  Milan; Leonardo was painter to the Sforza court at the time of
+                  its execution. It is one of only four surviving portraits of
+                  women painted by Leonardo, the others being Ginevra de' Benci,
+                  La Belle Ferronnière and the Mona Lisa.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/Lady_with_an_Ermine"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="The Night Café"
+              data-artist="Vincent Van Gogh"
+              data-slug="the-night-cafe"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/the-night-cafe/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/the-night-cafe/hero-small.jpg"
+                      alt="The Night Café"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">The Night Café</h2>
+                  <p class="subhead1">Vincent Van Gogh</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/the-night-cafe/artist.jpg"
+                    alt="Vincent Van Gogh"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1888</p>
+                <p class="detail__desc">
+                  The Night Café (French: Le Café de nuit) is an oil painting
+                  created by Dutch artist Vincent van Gogh in September 1888 in
+                  Arles. Its title is inscribed lower right beneath the
+                  signature. The painting is owned by Yale University and is
+                  currently held at the Yale University Art Gallery in New
+                  Haven, Connecticut. The interior depicted is the Café de la
+                  Gare, 30 Place Lamartine, run by Joseph-Michel Ginoux and his
+                  wife Marie, who in November 1888 posed for Van Gogh's and
+                  Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently
+                  posed for both artists, too.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/The_Night_Caf%C3%A9"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="The Basket of Apples"
+              data-artist="Paul Cézanne"
+              data-slug="the-basket-of-apples"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/the-basket-of-apples/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/the-basket-of-apples/hero-small.jpg"
+                      alt="The Basket of Apples"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">The Basket of Apples</h2>
+                  <p class="subhead1">Paul Cézanne</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/the-basket-of-apples/artist.jpg"
+                    alt="Paul Cézanne"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1893</p>
+                <p class="detail__desc">
+                  The Basket of Apples (French: Le panier de pommes) is a still
+                  life oil painting by French artist Paul Cézanne, which he
+                  created c. 1893. The painting is particularly remarkable for
+                  its creative composition, which rejected realistic
+                  representation in favour of distorting objects to create
+                  multiple perspectives. This approach eventually influenced
+                  other art movements, including Fauvism and Cubism. It belongs
+                  to the Helen Birch Bartlett Memorial Collection of the Art
+                  Institute of Chicago.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/The_Basket_of_Apples"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="The Boy in the Red Vest"
+              data-artist="Paul Cézanne"
+              data-slug="the-boy-in-the-red-vest"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/the-boy-in-the-red-vest/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/the-boy-in-the-red-vest/hero-small.jpg"
+                      alt="The Boy in the Red Vest"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">The Boy in the Red Vest</h2>
+                  <p class="subhead1">Paul Cézanne</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/the-boy-in-the-red-vest/artist.jpg"
+                    alt="Paul Cézanne"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1889</p>
+                <p class="detail__desc">
+                  Cézanne painted four oil portraits of this Italian boy in the
+                  red vest, all in different poses, which allowed him to study
+                  the relationship between the figure and space. The most famous
+                  of the four, and the one commonly referred to by this title,
+                  is the one which depicts the boy in a melancholic seated pose
+                  with his elbow on a table and his head cradled in his hand. It
+                  is currently held in Zürich, Switzerland. The other three
+                  portraits, of different poses, are in museums in the US.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/The_Boy_in_the_Red_Vest"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="Arnolfini Portrait"
+              data-artist="Jan van Eyck"
+              data-slug="arnolfini-portrait"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/arnolfini-portrait/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/arnolfini-portrait/hero-small.jpg"
+                      alt="Arnolfini Portrait"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">Arnolfini Portrait</h2>
+                  <p class="subhead1">Jan van Eyck</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/arnolfini-portrait/artist.jpg"
+                    alt="Jan van Eyck"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1434</p>
+                <p class="detail__desc">
+                  It is considered one of the most original and complex
+                  paintings in Western art, because of its beauty, complex
+                  iconography, geometric orthogonal perspective, and expansion
+                  of the picture space with the use of a mirror. According to
+                  Ernst Gombrich "in its own way it was as new and revolutionary
+                  as Donatello's or Masaccio's work in Italy. A simple corner of
+                  the real world had suddenly been fixed on to a panel as if by
+                  magic ... For the first time in history the artist became the
+                  perfect eye-witness in the truest sense of the term".
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/Arnolfini_Portrait"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="Mona Lisa"
+              data-artist="Leonardo da Vinci"
+              data-slug="mona-lisa"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/mona-lisa/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/mona-lisa/hero-small.jpg"
+                      alt="Mona Lisa"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">Mona Lisa</h2>
+                  <p class="subhead1">Leonardo da Vinci</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/mona-lisa/artist.jpg"
+                    alt="Leonardo da Vinci"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1503</p>
+                <p class="detail__desc">
+                  The Mona Lisa (/ˌmoʊnə ˈliːsə/; italian: La Gioconda [la
+                  dʒoˈkonda] or Monna Lisa [ˈmɔnna ˈliːza]) is a half-length
+                  portrait painting by Italian artist Leonardo da Vinci.
+                  Considered an archetypal masterpiece of the Italian
+                  Renaissance, it has been described as "the best known, the
+                  most visited, the most written about, the most sung about, the
+                  most parodied work of art in the world". The painting's novel
+                  qualities include the subject's enigmatic expression, the
+                  monumentality of the composition, the subtle modelling of
+                  forms, and the atmospheric illusionism.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/Mona_Lisa"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+
+            <article
+              class="slide detail grid"
+              data-title="The Swing"
+              data-artist="Jean-Honoré Fragonard"
+              data-slug="the-swing"
+            >
+              <div class="detail__hero grid">
+                <div class="detail__image">
+                  <picture>
+                    <source
+                      srcset="assets/the-swing/hero-large.jpg"
+                      media="(min-width: 720px)"
+                      width="950"
+                      height="1120"
+                    />
+                    <img
+                      src="assets/the-swing/hero-small.jpg"
+                      alt="The Swing"
+                      width="654"
+                      height="560"
+                    />
+                  </picture>
+                  <button class="view-image-btn flex">
+                    <img
+                      src="assets/shared/icon-view-image.svg"
+                      alt="View image"
+                      width="12"
+                      height="12"
+                    />
+                    <span>View image</span>
+                  </button>
+                </div>
+                <div class="detail__heading">
+                  <h2 class="heading1">The Swing</h2>
+                  <p class="subhead1">Jean-Honoré Fragonard</p>
+                </div>
+                <div class="detail__artist">
+                  <img
+                    src="assets/the-swing/artist.jpg"
+                    alt="Jean-Honoré Fragonard"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+              </div>
+              <div class="detail__text">
+                <p class="detail__year display">1767</p>
+                <p class="detail__desc">
+                  The painting depicts an elegant young woman on a swing. A
+                  smiling young man, hiding in the bushes on the left, watches
+                  her from a vantage point that allows him to see up into her
+                  billowing dress, where his arm is pointed with hat in hand. A
+                  smiling older man, who is nearly hidden in the shadows on the
+                  right, propels the swing with a pair of ropes. The older man
+                  appears to be unaware of the young man. As the young lady
+                  swings high, she throws her left leg up, allowing her dainty
+                  shoe to fly through the air.
+                </p>
+                <a
+                  class="detail__source link2"
+                  href="https://en.wikipedia.org/wiki/The_Swing_(Fragonard)"
+                  rel="external"
+                  >Go to source</a
+                >
+              </div>
+            </article>
+          </div>
+
+          <div class="slider__controls inline-size-extended">
+            <div class="slider__progress">
+              <label for="slider__progress-bar" class="sr-only"
+                >Gallery Progress Bar</label
+              >
+              <progress
+                id="slider__progress-bar"
+                value="0"
+                max="100"
+              ></progress>
+            </div>
+            <div class="slider__item-info">
+              <span class="slider__item-title heading3">Item Title</span>
+              <span class="slider__item-artist subhead2b"
+                >Item Artist Name</span
+              >
+            </div>
+            <div class="slider__buttons flex">
+              <button class="goToPrev">
+                <svg viewBox="0 0 26 24" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      d="M24.166 1.843L3.627 12.113l20.539 10.269V1.843z"
+                      stroke-width="2"
+                    />
+                    <path d="M.986.5h-1v22.775h1z" />
+                  </g>
+                </svg>
+                <span class="sr-only">Previous Slide</span>
+              </button>
+              <button class="goToNext">
+                <svg viewBox="0 0 26 24" xmlns="http://www.w3.org/2000/svg">
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      d="M1.528 1.843l20.538 10.27L1.528 22.382V1.843z"
+                      stroke-width="2"
+                    />
+                    <path d="M24.708.5h1v22.775h-1z" />
+                  </g>
+                </svg>
+                <span class="sr-only">Next Slide</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <dialog class="view-image-dialog" closedby="any">
+      <div class="view-image-dialog-inner">
+        <form method="dialog">
+          <button autofocus>Close</button>
+        </form>
+        <img src="" alt="" />
+      </div>
+    </dialog>
+
+    <script src="js/detail.js"></script>
+  </body>
+</html>

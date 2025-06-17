@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resize Observer Test</title>
+    <style>
+      .box {
+        text-align: center;
+        height: 20vh;
+        border-radius: 8px;
+        box-shadow: 0 0 4px var(--subtle);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box h3 {
+        color: #fff;
+        margin: 0;
+        font-size: 5vmin;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      }
+
+      .box.small {
+        max-width: 550px;
+        margin: 1rem auto;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      DigitalOcean Tutorial -
+      <a
+        href="https://www.digitalocean.com/community/tutorials/js-resize-observer"
+        >How To Use the Resize Observer JavaScript API</a
+      >
+    </p>
+
+    <div class="box">
+      <h3 class="info"></h3>
+    </div>
+    <div class="box small">
+      <h3 class="info"></h3>
+    </div>
+
+    <script>
+      const boxes = document.querySelectorAll('.box');
+
+      const myObserver = new ResizeObserver((entries) => {
+        for (let entry of entries) {
+          const infoEl = entry.target.querySelector('.info');
+          const width = Math.floor(entry.contentRect.width);
+          const height = Math.floor(entry.contentRect.height);
+
+          const angle = Math.floor((width / 360) * 100);
+          const gradient = `linear-gradient(${angle}deg, rgba(0,143,104,1), rgba(250,224,66,1))`;
+
+          entry.target.style.background = gradient;
+
+          infoEl.innerText = `I'm ${width}px and ${height}px tall`;
+        }
+      });
+
+      boxes.forEach((box) => {
+        myObserver.observe(box);
+      });
+    </script>
+  </body>
+</html>

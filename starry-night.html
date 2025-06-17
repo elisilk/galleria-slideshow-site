@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/index.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="Solution to Frontend Mentor's Galleria slideshow site design challenge."
+    />
+    <title>Frontend Mentor | Galleria slideshow site | Starry Night</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo"
+        ><img
+          src="assets/shared/logo.svg"
+          alt="Galleria logo"
+          width="170"
+          height="48"
+      /></a>
+      <a href="index.html" class="link1 block-align-center inline-align-end"
+        >Stop Slideshow</a
+      >
+    </header>
+
+    <main>
+      <article class="detail grid">
+        <div class="detail__hero">
+          <div class="detail__image">
+            <picture>
+              <source
+                srcset="assets/starry-night/hero-large.jpg"
+                media="(min-width: 960px)"
+                width="950"
+                height="1120"
+              />
+              <img
+                src="assets/starry-night/hero-small.jpg"
+                alt="Starry Night"
+                width="654"
+                height="560"
+              />
+            </picture>
+            <button class="view-image-btn flex">
+              <img
+                src="assets/shared/icon-view-image.svg"
+                alt="View image"
+                width="12"
+                height="12"
+              />
+              <span>View image</span>
+            </button>
+          </div>
+
+          <div class="detail__heading">
+            <h1 class="heading1">Starry Night</h1>
+            <p class="subhead1">Vincent Van Gogh</p>
+          </div>
+
+          <div class="detail__artist">
+            <img
+              src="assets/starry-night/artist.jpg"
+              alt="Vincent Van Gogh"
+              width="128"
+              height="128"
+            />
+          </div>
+        </div>
+
+        <div class="detail__text">
+          <p class="detail__year display">1889</p>
+          <p class="detail__desc">
+            Although The Starry Night was painted during the day in Van Gogh's
+            ground-floor studio, it would be inaccurate to state that the
+            picture was painted from memory. The view has been identified as the
+            one from his bedroom window, facing east, a view which Van Gogh
+            painted variations of no fewer than twenty-one times, including The
+            Starry Night. "Through the iron-barred window," he wrote to his
+            brother, Theo, around 23 May 1889, "I can see an enclosed square of
+            wheat ... above which, in the morning, I watch the sun rise in all
+            its glory."
+          </p>
+          <a
+            class="detail__source link2"
+            href="https://en.wikipedia.org/wiki/The_Starry_Night"
+            rel="external"
+            >Go to source</a
+          >
+        </div>
+      </article>
+
+      <div class="controller flex">
+        <div>
+          <p>Starry Night</p>
+          <p>Vincent Van Gogh</p>
+        </div>
+        <div class="flex">
+          <button>
+            <img
+              src="assets/shared/icon-back-button.svg"
+              alt=""
+              width="26"
+              height="24"
+            />
+            <span class="sr-only">Previous Slide</span>
+          </button>
+          <button>
+            <img
+              src="assets/shared/icon-next-button.svg"
+              alt=""
+              width="26"
+              height="24"
+            />
+            <span class="sr-only">Next Slide</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <dialog>
+      <p>Close</p>
+    </dialog>
+  </body>
+</html>
