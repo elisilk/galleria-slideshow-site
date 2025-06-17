@@ -1011,6 +1011,10 @@ body {
     margin-block-start: 75px;
     margin-inline-start: 115px;
   }
+
+  .detail__source {
+    margin-inline-start: 115px;
+  }
 }
 
 /* tablet -> desktop */
@@ -1038,6 +1042,10 @@ body {
   .detail__desc {
     max-width: 350px;
     margin-block-start: 115px;
+    margin-inline-start: 1px;
+  }
+
+  .detail__source {
     margin-inline-start: 1px;
   }
 }
