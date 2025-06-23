@@ -14,7 +14,6 @@ This is a solution to the [Galleria slideshow site challenge on Frontend Mentor]
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -80,8 +79,6 @@ As always, so many cool :sunglasses: things. Here are some of the key resources 
 - [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 - [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
   - [DOM MutationObserver – reacting to DOM changes without killing browser performance.](https://hacks.mozilla.org/2012/05/dom-mutationobserver-reacting-to-dom-changes-without-killing-browser-performance/)
-- []()
-- []()
 
 ### Continued development
 
